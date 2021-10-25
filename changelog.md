@@ -6,4 +6,4 @@ _Larissa, lohany, Jefferson, Thiago, Victor_
 
 - Criação do repositório do Github
 - Primeiro envio para o repositório
-
+- Atualização no changelog (teste)
