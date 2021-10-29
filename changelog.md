@@ -7,3 +7,8 @@ _Larissa, lohany, Jefferson, Thiago, Victor_
 - Criação do repositório do Github
 - Primeiro envio para o repositório
 - Atualização no changelog (teste)
+
+
+```
+Nota do professor: Nos próximos updates listem as atividades de cada membro de forma individual ou em duplas. 
+```
