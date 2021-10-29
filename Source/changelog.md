@@ -21,3 +21,9 @@ _Larissa, Lohany_
 _Larissa, Lohany_
 
 - Inicio do desenvolvimento do primeiro Banner do Home Pag
+
+## 29 de Outubro de 2021
+
+_Larissa, Lohany_
+
+- Nota especial: Colocamos link na logo, agora clicar na imagem leva pra Home, isso é maneiro demais cara
