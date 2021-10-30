@@ -21,9 +21,10 @@ _Larissa, Lohany_
 _Larissa, Lohany_
 
 - Inicio do desenvolvimento do primeiro Banner do Home Pag
+- Nota especial: Colocamos link na logo, agora clicar na imagem leva pra Home, isso é maneiro demais cara
 
-## 29 de Outubro de 2021
+## 30 de Outubro de 2021
 
 _Larissa, Lohany_
-
-- Nota especial: Colocamos link na logo, agora clicar na imagem leva pra Home, isso é maneiro demais cara
+- Finalização do designer do primeiro banner
+- Inicio do desenvolvimento do Javascript da rotação dos Banner, somente tendo êxito no Html
