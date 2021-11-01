@@ -28,3 +28,8 @@ _Larissa, Lohany_
 _Larissa, Lohany_
 - Finalização do designer do primeiro banner
 - Inicio do desenvolvimento do Javascript da rotação dos Banner, somente tendo êxito no Html
+
+## 01 de novembro de 2021
+_Jefferson_
+- desenvolvimento no css.
+- inicio do banner rotativo no JS
