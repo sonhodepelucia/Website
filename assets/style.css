@@ -62,7 +62,7 @@ body {
   color:#f0f2f5;
 }
 
-.slides img {
+.slides li {
   text-align: center;
   width: 1336px;
   height: 630px;

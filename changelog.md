@@ -33,3 +33,7 @@ _Larissa, Lohany_
 _Jefferson_
 - desenvolvimento no css.
 - inicio do banner rotativo no JS
+
+## 04 de novembro
+_Jefferson_
+- criação em  html dos produtos,quem somos e contatos. E linka-los 
