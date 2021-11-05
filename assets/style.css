@@ -12,11 +12,16 @@ body {
   background-color: #f0f2f5;
   position: relative;
   height: 100vh;
+  min-height: 100%;
 }
 
-#menu{
-      background-color: rgb(142,140,192);
-
+.all{
+  min-height: 100%;
+  position: 
+  width:800px;
+}
+#menu {
+  background-color: rgb(142, 140, 192);
 }
 .conteúdo {
   justify-content: space-between;
@@ -33,39 +38,104 @@ body {
   margin: 25px;
 }
 
-.conteúdo nav{
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    padding-right: 150px;
+.conteúdo nav {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  height: 110px;
 }
 
-.conteúdo nav a{
-    padding: 20px;
-    font-size: 25pt;
-    text-decoration: none;
-    color:#f0f2f5;
+.conteúdo nav a {
+  padding: 20px;
+  font-size: 25pt;
+  text-decoration: none;
+  color: #f0f2f5;
 }
 
-.redes{
+.redes {
   align-content: space-between;
   display: flex;
   align-items: center;
 }
-.conteúdo div a{
+.conteúdo div a {
   text-decoration: none;
-  color:#f0f2f5;
-    padding: 20px;
+  color: #f0f2f5;
+  padding: 20px;
 }
 
-.redes i{
-  color:#f0f2f5;
+.redes i {
+  color: #f0f2f5;
 }
 
-.slides li {
-  text-align: center;
-  width: 1336px;
-  height: 630px;
-display: block;
+.center {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: -50px;
+}
+#divBusca {
+  background-color: #ffffff;
+  border: solid 1px;
+  border-color: rgb(142, 140, 192);
+  border-radius: 10px;
+  width: 600px;
+  margin-left: 160px;
+  margin-bottom: 50px;
+}
 
+#txtBusca {
+  float: left;
+  background-color: transparent;
+  padding-left: 5px;
+  font-style:normal;
+  font-size: 18px;
+  border: none;
+  height: 32px;
+  width: 560px;
+}
+#btnBusca {
+  color: rgb(142, 140, 192);
+  margin-top: 4px;
+}
+
+#banners{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer{
+    background-color: rgb(142, 140, 192);;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+}
+
+.info{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.email{
+  margin-left: 20px; 
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+
+}
+
+.number{
+  margin-left: 20px; 
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+
+.adress{
+  margin-left: 20px; 
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 20px;
 }
