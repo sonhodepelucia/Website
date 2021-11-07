@@ -47,4 +47,8 @@ _Larissa, Lohany_
 - Finalização da barra de pesquisa HTML e CSS
 - Finalização do rodapé HTML e CSS
 
+## 07 de novembro de 2021
+
+_Larissa, Lohany_
+- Tentativa do Html, css e javascript do banner rotativo da Home 
 
