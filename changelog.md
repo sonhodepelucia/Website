@@ -27,13 +27,24 @@ _Larissa, Lohany_
 
 _Larissa, Lohany_
 - Finalização do designer do primeiro banner
-- Inicio do desenvolvimento do Javascript da rotação dos Banner, somente tendo êxito no Html
+- Inicio do desenvolvimento do Javascript da rotação dos Banner, somente tendo êxito no HTML
 
 ## 01 de novembro de 2021
 _Jefferson_
 - desenvolvimento no css.
 - inicio do banner rotativo no JS
 
-## 04 de novembro
+## 04 de novembro 2021
 _Jefferson_
-- criação em  html dos produtos,quem somos e contatos. E linka-los 
+- Criação em HTML dos produtos, quem somos e contatos. E linka-los
+
+_Larissa, Lohany_
+- Desenvolvimento e Finalização do segundo banner
+
+## 05 de novembro de 2021
+
+_Larissa, Lohany_
+- Finalização da barra de pesquisa HTML e CSS
+- Finalização do rodapé HTML e CSS
+
+
