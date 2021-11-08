@@ -59,4 +59,7 @@ _Larissa, Lohany_
 - Finalização de todo o corpo da Home HTML  e CSS
 
 _Thiago_
-- Adição do botão pro topo da home
+- Adição do botão pro topo da home HTML
+
+_Lohany, Larissa_
+- Estilização do botão pro topo da home CSS
