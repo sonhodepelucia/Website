@@ -107,7 +107,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: Rgb(173, 222, 248);
+  background-color: #addef8;
 }
 .apresentaçao1 img {
   width: 500px;
@@ -115,12 +115,11 @@ html {
 }
 
 .texto1 {
-  padding-bottom: 150px;
   margin-left: 25px;
 }
 
 .texto1 h1 {
-  color: rgb(255, 255, 255);
+  color: #383f51;
   font-family: Verdana, sans-serif;
   font-weight: 800;
   text-align: justify;
@@ -151,7 +150,6 @@ html {
   height: 400px;
 }
 .texto2 {
-  padding-bottom: 150px;
   margin-left: 25px;
 }
 
@@ -214,7 +212,7 @@ html {
   align-items: center;
   justify-content: center;
   margin-left: 150px;
-  transition: background 2s;
+  transition: background 0.5s;
 }
 
 .texto3 button:hover{
@@ -228,8 +226,19 @@ html {
   font-family: cursive;
 } 
 
-
-
+.botao{
+  color:rgb(255, 255, 255);
+  height: 70px;
+  width: 70px;
+  display: inline-block;
+}
+.button2{
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  margin-top: -120px;
+  padding: 20px 20px;
+}
 
 footer {
   position: absolute;
