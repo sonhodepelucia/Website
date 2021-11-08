@@ -2,7 +2,7 @@
 
 ## 25 de Outubro de 2021
 
-_Larissa, lohany, Jefferson, Thiago, Victor_
+_Larissa, lohany, Jefferson, Thiago_
 
 - Criação do repositório do Github
 - Primeiro envio para o repositório
@@ -20,26 +20,26 @@ _Larissa, Lohany_
 
 _Larissa, Lohany_
 
-- Inicio do desenvolvimento do primeiro Banner do Home Pag
+- Inicio do desenvolvimento do primeiro Banner Ai
 - Nota especial: Colocamos link na logo, agora clicar na imagem leva pra Home, isso é maneiro demais cara
 
 ## 30 de Outubro de 2021
 
 _Larissa, Lohany_
-- Finalização do designer do primeiro banner
+- Finalização do designer do primeiro banner Ai
 - Inicio do desenvolvimento do Javascript da rotação dos Banner, somente tendo êxito no HTML
 
 ## 01 de novembro de 2021
 _Jefferson_
-- desenvolvimento no css.
-- inicio do banner rotativo no JS
+- Desenvolvimento no css 
+- Inicio do banner rotativo no JS
 
 ## 04 de novembro 2021
 _Jefferson_
 - Criação em HTML dos produtos, quem somos e contatos. E linka-los
 
 _Larissa, Lohany_
-- Desenvolvimento e Finalização do segundo banner
+- Desenvolvimento e Finalização do segundo banner Ai
 
 ## 05 de novembro de 2021
 
@@ -50,5 +50,11 @@ _Larissa, Lohany_
 ## 07 de novembro de 2021
 
 _Larissa, Lohany_
-- Tentativa do Html, css e javascript do banner rotativo da Home 
+- Tentativa do Html, css e javascript do banner rotativo da Home. Obs: nenhuma das tentativas deram certas, nem as do Jeff
+- Inicio de todo o corpo da Home HTML e CSS. Sem Javascript
+
+## 08 de novembro de 2021
+
+_Larissa, Lohany_
+- Finalização de todo o corpo da Home HTML  e CSS
 
