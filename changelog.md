@@ -63,3 +63,10 @@ _Thiago_
 
 _Lohany, Larissa_
 - Estilização do botão pro topo da home CSS
+
+
+## 09 de novembro de 2021
+_jeff_
+
+- criação do layout da pagina "quem somos" e aplicar ela em HTML e CSS
+- desenvolvimento pequeno na grid da page de produtos. (talvez isso n vá pra frente :D)
