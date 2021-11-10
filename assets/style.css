@@ -25,6 +25,7 @@ html {
 
 #menu {
   background-color: rgb(142, 140, 192);
+  border: 1pt solid black;
 }
 .conteúdo {
   justify-content: space-between;

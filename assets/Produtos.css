@@ -61,3 +61,19 @@
     color:#f0f2f5;
   }
   
+  .grid {
+    background-color: rgb(209, 122, 9);
+
+  }
+  
+  .conteiner {
+    display: grid;
+    grid-template-columns: 3 ;
+    grid-template-rows: 4 ;
+  }
+  
+  .produtos img {
+    width: 300px;
+    height: 20px;
+
+  }
