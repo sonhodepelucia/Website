@@ -67,18 +67,36 @@
     width: 100%;
     height: 100%;
     padding: 50px; 
-    margin-top: 40px;
+    
+    background-color: rgb(247, 131, 131);
   }
   #imagem  img{
    
     height:500px;
     width:  700px;
+    margin-top: 40px;
   }
 
+  #texto{
+    margin-top: 40px;
+  }
+#botao button{
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  margin-top: 120px;
+  padding: 20px 20px;
+  background-color: rgb(142,140,192); ;
+  color: black ;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+
+}
   footer {
     position: absolute;
-    background-color: Rgb(173, 222, 248);
-    color: rgb(0, 0, 0);
+    background-color: rgb(142,140,192);
+    color: rgb(255, 255, 255);
     display: inline-block;
     width: 100%;
   }

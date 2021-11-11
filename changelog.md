@@ -70,3 +70,16 @@ _jeff_
 
 - criação do layout da pagina "quem somos" e aplicar ela em HTML e CSS
 - desenvolvimento pequeno na grid da page de produtos. (talvez isso n vá pra frente :D)
+
+
+## 11 de novembro de 2021
+_jeff_
+- desenvolvimento da pagina "quem somos",ajustes e correções{
+    *criando um botão de para levar até a area de contatos
+    *colocar uma cor no fundo da pagina
+    *correção de tamanho
+}
+
+
+_ Larrisa Lohany_
+- trabalhando no design para substituir a tela preta no "quem somos"   
