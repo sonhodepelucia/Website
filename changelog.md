@@ -66,20 +66,26 @@ _Lohany, Larissa_
 
 
 ## 09 de novembro de 2021
-_jeff_
+_Jeff_
 
-- criação do layout da pagina "quem somos" e aplicar ela em HTML e CSS
-- desenvolvimento pequeno na grid da page de produtos. (talvez isso n vá pra frente :D)
+- Criação do layout da pagina "quem somos" e aplicar ela em HTML e CSS
+- Desenvolvimento pequeno na grid da page de produtos. (Talvez isso não vá para frente :D)
 
 
 ## 11 de novembro de 2021
-_jeff_
-- desenvolvimento da pagina "quem somos",ajustes e correções{
-    *criando um botão de para levar até a area de contatos
-    *colocar uma cor no fundo da pagina
-    *correção de tamanho
+_Jeff_
+- Desenvolvimento da pagina "quem somos", ajustes e correções{
+    *Criando um botão de para levar até a area de contatos
+    *Colocar uma cor no fundo da pagina
+    *Correção de tamanho
 }
+_Larrisa e Lohany_
+- Início da digitalização AI do design para substituir a tela preta no "Quem somos"
 
+## 12 de novembro de 2021
+_Larissa e Lohany_
+- Término da digitalização AI do design para substituir a tela preta no "Quem somos"
 
-_ Larrisa Lohany_
-- trabalhando no design para substituir a tela preta no "quem somos"   
+## 14 de novembro
+_Larissa e Lohany_
+- Aplicação do design na pág quem somos, ajustes no CSS 
