@@ -68,12 +68,11 @@
   
   .conteiner {
     display: grid;
-    grid-template-columns: 3 ;
-    grid-template-rows: 4 ;
+    grid-template-columns: 1 ;
+    grid-template-rows: 3 ;
   }
   
   .produtos img {
     width: 300px;
     height: 20px;
-
   }
