@@ -71,3 +71,20 @@ html {
 .redes i {
   color: #f0f2f5;
 }
+
+.page {
+  display: flex;
+  justify-content: right;
+  
+}
+
+#empresa {
+  justify-items: left
+  ;
+}
+#cadastro{
+  display: flex;
+  
+
+  justify-items: right;
+}
