@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sonho de Pelúcia</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Sonho de Pelúcia</title>
-  <script src="https://unpkg.com/feather-icons"></script>
-</head>
-
-<body>
-  <div class="body">
+  <body>
     <div id="menu">
       <div class="conteúdo">
         <div class="logo">
-          <a href="index.html"><img src="source/logo-vertical-bbbbbbbbbbbbbbbbb.png" /></a>
+          <a href="index.html"
+            ><img src="source/logo-vertical-bbbbbbbbbbbbbbbbb.png"
+          /></a>
         </div>
         <nav>
           <a href="index.html">Home</a>
@@ -25,40 +25,52 @@
         </nav>
         <div class="redes">
           <a href="https://www.instagram.com/sonhodepelucia_ofc/">
-            <i data-feather="instagram"></i></a>
+            <i data-feather="instagram"></i
+          ></a>
           <a href="https://m.facebook.com/sonhodepelucia_ofc-100444428947377/">
-            <i data-feather="facebook"></i></a>
+            <i data-feather="facebook"></i
+          ></a>
           <a href="$"> <i data-feather="twitter"></i></a>
         </div>
       </div>
     </div>
     <!-- Pagina -->
+
+    <h1>Entre em contato com a gente!</h1>
     <div class="page">
-      <h1>Entre em contato com a gente!</h1>
-
       <div id="empresa">
-        <form>
-        <span>Email: sonhodepelucia@gmail.com </span> <br>
-        <span>Numero: 21 2675-9570 /// 9100-0000</span> <br>
-        <span>Local: Avenida expedicionario Jode Amaro</span> <br>
-        <span>Horario de serviços: Segunda à sabados de 08:00 AM  até 09:00</span>
-          </form>
-
+        <span>Email: sonhodepelucia@gmail.com </span> <br />
+        <span>Numero: 21 2675-9570 /// 9100-0000</span> <br />
+        <span>Local: Avenida expedicionario Jode Amaro</span> <br />
+        <span
+          >Horario de serviços: Segunda à sabados de 08:00 AM até 09:00</span
+        >
       </div>
+
       <div id="cadastro">
-       <form>
-         <label for="name"> Nome</label>
-         <input type="text" name="name" placeholder="Digite aqui...">
-          <label for="number">Numero</label>
-          <input type="tel" name="number" placeholder="Numero de telefone...">
-       </form>
+        <form id="contato">
+          <div class="form-group">
+            <label for="nome">Nome Completo</label>
+            <input type="text" name="nome" id="nome" />
+          </div>
+          <div class="form-group">
+            <label for="whatsapp">whatsapp</label>
+            <input type="text" name="whatsapp" id="whatsapp" />
+          </div>
+          <div class="form-group">
+            <label for="Email">Email</label>
+            <textarea type="text" name="Email" id="Email"></textarea>
 
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
       </div>
-
     </div>
-
 
     <script>
       feather.replace();
     </script>
-</body>
+
+    <script src="contatos.js"></script>
+  </body>
+</html>

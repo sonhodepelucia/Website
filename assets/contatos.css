@@ -9,8 +9,7 @@
 }
 
 body {
-  background-color: rgb(144, 224, 243
-  );
+  background-color: rgb(144, 224, 243);
   position: relative;
   height: 100vh;
   min-height: 100%;
@@ -75,16 +74,22 @@ html {
 .page {
   display: flex;
   justify-content: right;
-  
-}
+  padding: 20px;
 
-#empresa {
-  justify-items: left
-  ;
+
 }
-#cadastro{
+form input , form textarea , form button{
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  border: 1px solid transparent;
+  transition: border-color linear 0.2s;}
+
+
+.formgroup{
   display: flex;
-  
-
-  justify-items: right;
+  flex-direction: column;
 }
+ form textarea{
+   resize: none;
+ }
