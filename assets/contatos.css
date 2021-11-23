@@ -13,7 +13,16 @@ body {
   position: relative;
   height: 100vh;
   min-height: 100%;
+  animation: fadein 1s;
 }
+
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
 html {
   min-height: 100%;
 }
@@ -70,26 +79,55 @@ html {
 .redes i {
   color: #f0f2f5;
 }
-
-.page {
-  display: flex;
-  justify-content: right;
-  padding: 20px;
-
-
+form{
+  width: 100%;
 }
-form input , form textarea , form button{
+form input,
+form textarea,
+form button {
   padding: 10px;
   border-radius: 5px;
   margin-top: 5px;
   border: 1px solid transparent;
-  transition: border-color linear 0.2s;}
+  transition: border-color linear 0.2s;
+}
 
+form input:focus,
+form textarea:focus{
+  border: 1px solid #072279;
+}
 
-.formgroup{
+form textarea {
+  resize: none;
+}
+
+#form-content {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 500px;
+}
+
+.form-group{
   display: flex;
   flex-direction: column;
 }
- form textarea{
-   resize: none;
- }
+#contact-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.coluna{
+  width: 100%;
+  height: 30px;
+  max-width: 400px;
+}
+
+form button{
+  background-color: #072279;
+  color: #fff;
+  width: 100%;
+  margin-top: 30px;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contatos.css" />
     <title>Sonho de Pelúcia</title>
     <script src="https://unpkg.com/feather-icons"></script>
   </head>
@@ -35,42 +35,47 @@
       </div>
     </div>
     <!-- Pagina -->
+    <div id="contact-content" class="wrapper">
 
-    <h1>Entre em contato com a gente!</h1>
-    <div class="page">
-      <div id="empresa">
-        <span>Email: sonhodepelucia@gmail.com </span> <br />
-        <span>Numero: 21 2675-9570 /// 9100-0000</span> <br />
-        <span>Local: Avenida expedicionario Jode Amaro</span> <br />
-        <span
-          >Horario de serviços: Segunda à sabados de 08:00 AM até 09:00</span
-        >
+
+      <!--  -->
+      <div class="coluna" style="background-color: blue">
+      
       </div>
+     
+     <!-- cadastro -->
+      <div class="coluna">
+        <div id="form-content">
+          <form autocomplete="off">
+            <div class="form-group">
+              <label for="nome">Nome Completo</label>
+              <textarea type="text" name="nome" id="nome">Digite aqui...</textarea>
+            </div>
 
-      <div id="cadastro">
-        <form id="contato">
-          <div class="form-group">
-            <label for="nome">Nome Completo</label>
-            <input type="text" name="nome" id="nome" />
-          </div>
-          <div class="form-group">
-            <label for="whatsapp">whatsapp</label>
-            <input type="text" name="whatsapp" id="whatsapp" />
-          </div>
-          <div class="form-group">
-            <label for="Email">Email</label>
-            <textarea type="text" name="Email" id="Email"></textarea>
+            <div class="form-group">
+              <label for="whatsapp">Whatsapp</label>
+              <textarea type="text" name="whatsapp" id="whatsapp">Digite aqui...</textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <textarea type="text" name="email" id="email">Digite aqui...</textarea>
+              </div>
+
+            <div class="form-group">
+              <label for="mensagem">Mensagem</label>
+              <textarea name="mensagem" id="mensagem">Digite aqui...</textarea>
+            </div>
 
             <button type="submit">Enviar</button>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </div>
 
-    <script>
+    <script src="/assets/js/contatos.js">
       feather.replace();
     </script>
-
-    <script src="contatos.js"></script>
   </body>
 </html>
+ 

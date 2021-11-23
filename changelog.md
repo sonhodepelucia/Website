@@ -113,3 +113,12 @@ _Larissa e Lohany_
 _Larissa e Lohany_
 - Ajustes em CSS do popup da pag produtos, botão do popup
 - Adição dos números da página em HTML e CSS
+
+
+## 23 de novembro de 2021
+_Larissa e Lohany_
+- Finalização da ilustração 2 do home
+- Inicio da Ilustração 3 do home
+
+_Thiagon_
+-esterilização das paginas do html( colocando rodapé em todas as pages.colocando os links para funcionar ) 
