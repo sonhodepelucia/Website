@@ -69,7 +69,7 @@ _Lohany, Larissa_
 _Jeff_
 
 - Criação do layout da pagina "quem somos" e aplicar ela em HTML e CSS
-- Desenvolvimento pequeno na grid da page de produtos. (Talvez isso não vá para frente :D)
+- Desenvolvimento pequeno na grid da page de produtos. (Talvez isso não vá para frente :D) (Obs: não deu certo mesmo)
 
 
 ## 11 de novembro de 2021
@@ -86,6 +86,30 @@ _Larrisa e Lohany_
 _Larissa e Lohany_
 - Término da digitalização AI do design para substituir a tela preta no "Quem somos"
 
-## 14 de novembro
+## 14 de novembro de 2021
 _Larissa e Lohany_
 - Aplicação do design na pág quem somos, ajustes no CSS 
+
+## 16 de novembro de 2021
+_Larissa e Lohany_ 
+- Alterações em CSS do layout do menu (+ mudança da logo) e do home 
+
+## 19 de novembro de 2021
+_Larissa e Lohany_ 
+- Começo do desenvolvimento dos produtos em HTML e CSS (não deu certo, somente a adição do banner)
+- Desenvolvimento das ilustrações do home
+
+_Thiago_
+- Sugestões de mudança e alterações nas illustrações.
+
+_Jefferson_
+- Adição dos textos do contatos
+
+## 20 de novembro de 2021
+_Larissa e Lohany_
+- Desenvolvimento em HTMl, CSS e JavasCript do layout da pag produtos (grid de produtos, botão para envio de pedidos personalizados junto do popup para o envio)
+
+## 22 de novembro de 2021
+_Larissa e Lohany_
+- Ajustes em CSS do popup da pag produtos, botão do popup
+- Adição dos números da página em HTML e CSS
