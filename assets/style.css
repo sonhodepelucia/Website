@@ -247,28 +247,54 @@ footer {
   width: 100%;
 }
 
+
 .info {
   align-items: center;
   justify-content: center;
   display: flex;
 }
-.email {
+.Gmail {
   margin-left: 20px;
   margin-top: 5px;
   margin-bottom: 5px;
   margin-right: 20px;
 }
+.Gmail a {
+  text-decoration: none;
+  color: black;
+}
 
-.number {
+.Gmail a:hover {
+  color: blue;
+  transition: 0.4s;
+}
+.icon-whatsapp {
   margin-left: 20px;
   margin-top: 5px;
   margin-bottom: 5px;
   margin-right: 20px;
 }
-
+.icon-whatsapp a {
+  text-decoration: none;
+  color: black;
+}
+.icon-whatsapp a:hover {
+  color: blue;
+  transition: 0.4s;
+}
 .adress {
   margin-left: 20px;
   margin-top: 5px;
   margin-bottom: 5px;
   margin-right: 20px;
 }
+.adress a {
+  text-decoration: none;
+  color: black;
+}
+
+.adress a:hover {
+  color: blue;
+  transition: 0.4s;
+}
+

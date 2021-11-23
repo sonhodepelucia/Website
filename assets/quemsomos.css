@@ -103,37 +103,75 @@ html {
   transition: 2s;
   background-color: red;
 }
-  footer {
-    position: absolute;
-    background-color: rgb(142,140,192);
-    color: rgb(255, 255, 255);
-    display: inline-block;
-    width: 100%;
-  }
-  
-  .info {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-  }
-  .email {
-    margin-left: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 20px;
-  }
-  
-  .number {
-    margin-left: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 20px;
-  }
-  
-  .adress {
-    margin-left: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 20px;
-  }
-  
+.botaoup {
+  color: rgb(255, 255, 255);
+  height: 70px;
+  width: 70px;
+  display: inline-block;
+}
+
+.button2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  margin-top: -120px;
+  padding: 20px 20px;
+}
+
+footer {
+  position: absolute;
+  background-color: Rgb(173, 222, 248);
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  width: 100%;
+}
+
+.info {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.Gmail {
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+.Gmail a {
+  text-decoration: none;
+  color: black;
+}
+
+.Gmail a:hover {
+  color: blue;
+  transition: 0.4s;
+}
+.icon-whatsapp {
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+.icon-whatsapp a {
+  text-decoration: none;
+  color: black;
+}
+.icon-whatsapp a:hover {
+  color: blue;
+  transition: 0.4s;
+}
+.adress {
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+.adress a {
+  text-decoration: none;
+  color: black;
+}
+
+.adress a:hover {
+  color: blue;
+  transition: 0.4s;
+}
