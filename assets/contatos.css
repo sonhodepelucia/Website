@@ -134,7 +134,7 @@ form button{
 
 
 #epr-content{
-  max-width: 500px;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   background-color: #ff9eea;
@@ -143,8 +143,14 @@ form button{
    border-radius: 16px;
    padding: 50px;
   margin: 150px auto;
+  height: 342px;
+  width: 400px;
+  justify-content: space-around;
+  justify-items: center;
+  margin: 10px auto;
 }
 
 #epr-content span{
   width: 100%;
+  
 }
