@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+body {
+  background-color: rgb(144, 224, 243);
+  position: relative;
+  height: 100vh;
+  min-height: 100%;
+  animation: fadein 1s;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+html {
+  min-height: 100%;
+}
+.all {
+  min-height: 100%;
+  position: relative;
+  width: 800px;
+}
+
+#menu {
+  background-color: rgb(142, 140, 192);
+  border: 1pt solid black;
+}
+.conteúdo {
+  justify-content: space-between;
+  display: flex;
+  align-content: center;
+  width: 100%;
+  height: 120px;
+}
+
+.logo img {
+  align-items: center;
+  margin: 16px 21px;
+}
+
+.conteúdo nav {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding-bottom: 15px;
+  margin-right: 10px;
+}
+
+.conteúdo nav a {
+  padding: 20px;
+  font-size: 16pt;
+  text-decoration: none;
+  color: #f0f2f5;
+}
+
+.redes {
+  align-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+}
+.conteúdo div a {
+  text-decoration: none;
+  color: #f0f2f5;
+  padding: 20px;
+}
+
+.redes i {
+  color: #f0f2f5;
+}
+form{
+  width: 100%;
+}
+form input,
+form textarea,
+form button {
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  border: 1px solid transparent;
+  transition: border-color linear 0.2s;
+}
+
+form input:focus,
+form textarea:focus{
+  border: 1px solid #072279;
+}
+
+form textarea {
+  resize: none;
+}
+
+#form-content {
+  display: flex;
+  background-color: #624f72;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 500px;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+}
+#contact-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.coluna{
+  width: 100%;
+  height: 30px;
+  max-width: 400px;
+}
+
+form button{
+  background-color: #ff9eea;
+  color: #fff;
+  width: 100%;
+  margin-top: 30px;
+}
+
+
+#epr-content{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ff9eea;
+  color: black;
+  border: 1pt solid black;
+   border-radius: 16px;
+   padding: 50px;
+  margin: 150px auto;
+  height: 342px;
+  width: 400px;
+  justify-content: space-around;
+  justify-items: center;
+  margin: 10px auto;
+}
+
+#epr-content span{
+  width: 100%;
+  
+}
