@@ -102,7 +102,6 @@ html {
   margin-top: 4px;
 }
 
-
 .banner img {
   margin-left: 65px;
   margin-right: 65px;
@@ -111,7 +110,7 @@ html {
   height: 90%;
 }
 
-.fds{
+.fds {
   background-color: #ffffff;
   padding-top: 20px;
   margin-left: 150px;
@@ -132,18 +131,21 @@ html {
 }
 
 main > header {
-  background-color: #d84c72 ;
-  color:white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+  background-color: #d84c72;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
   font-weight: 800;
   font-size: 20px;
   margin-bottom: 20px;
   text-align: center;
-}   
+}
 
-.produto { margin-bottom: 20px; cursor: pointer; }
+.produto {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
 
-.produto img{
+.produto img {
   width: 210px;
   height: 250px;
 }
@@ -154,22 +156,36 @@ main > header {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 }
-.produto s{
-  color:red;
+.produto s {
+  color: red;
 }
 
-.produto img:hover{
+.produto img:hover {
   transform: scale(1.1);
 }
 
 .produto p:hover {
-  transform: rotate(-2deg);    
+  transform: rotate(-2deg);
 }
 
 #produtos {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.botao {
+  color: rgb(255, 255, 255);
+  height: 70px;
+  width: 70px;
+  display: inline-block;
+}
+.button2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  margin-top: -120px;
+  padding: 20px 20px;
 }
 
 
@@ -188,25 +204,49 @@ footer {
   justify-content: center;
   display: flex;
 }
-.email {
+.Gmail {
   margin-left: 20px;
   margin-top: 5px;
   margin-bottom: 5px;
   margin-right: 20px;
 }
+.Gmail a {
+  text-decoration: none;
+  color: black;
+}
 
-.number {
+.Gmail a:hover {
+  color: blue;
+  transition: 0.4s;
+}
+.icon-whatsapp {
   margin-left: 20px;
   margin-top: 5px;
   margin-bottom: 5px;
   margin-right: 20px;
 }
-
+.icon-whatsapp a {
+  text-decoration: none;
+  color: black;
+}
+.icon-whatsapp a:hover {
+  color: blue;
+  transition: 0.4s;
+}
 .adress {
   margin-left: 20px;
   margin-top: 5px;
   margin-bottom: 5px;
   margin-right: 20px;
+}
+.adress a {
+  text-decoration: none;
+  color: black;
+}
+
+.adress a:hover {
+  color: blue;
+  transition: 0.4s;
 }
 
 /* popup */
@@ -229,60 +269,62 @@ footer {
   background-color: #624f72;
 }
 
-#popup form{
+#popup form {
   display: flex;
   align-items: initial;
   flex-direction: column;
 }
 
-#popup form div{
+#popup form div {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
-#popup form a{
+#popup form a {
   text-align: end;
 }
 
-form input, form select, form button, textarea{
-padding: 10PX;
-border-radius: 5PX;
-margin: auto 5px;
-margin-top: 5PX;
-flex: 1;
-border: 1px solid transparent;
-transition: border-color linear 0.2s;
-resize:none;
+form input,
+form select,
+form button,
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  margin: auto 5px;
+  margin-top: 5px;
+  flex: 1;
+  border: 1px solid transparent;
+  transition: border-color linear 0.2s;
+  resize: none;
 }
 
-textarea{
+textarea {
   height: 300px;
 }
 form input:focus,
-form select:focus, textarea:focus{
+form select:focus,
+textarea:focus {
   border-color: black;
 }
-form label{
+form label {
   font-weight: 500;
   color: #969cb2;
   font-size: 14px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-form button{
+form button {
   background-color: #ff9eea;
   color: rgb(0, 0, 0);
   margin-top: 30px;
   transition: background linear 0.2;
 }
-form button:hover{
+form button:hover {
   background-color: #73abff;
 }
 
-  
-#header{
+#header {
   width: 100%;
   height: 210px;
   background-color: #ff9eea;
@@ -329,14 +371,14 @@ tbody td svg {
 #addbottom a {
   color: #fff;
   border-radius: 50%;
-  padding:25px 15px ;
+  padding: 25px 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-.add{
+.add {
   position: absolute;
 }
 
@@ -357,12 +399,12 @@ tbody td svg {
   background-color: #969cb2;
 }
 
-.numeragem{
-display: flex;
-justify-content: center;
-align-items: center;
+.numeragem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.numero{
+.numero {
   background-color: #d84c72;
   border-radius: 50%;
   height: 25px;
@@ -375,5 +417,3 @@ align-items: center;
   margin-left: 3px;
   margin-right: 3px;
 }
-
-

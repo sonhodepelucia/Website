@@ -9,12 +9,20 @@
 }
 
 body {
-  background-color: rgb(144, 224, 243
-  );
+  background-color: rgb(144, 224, 243);
   position: relative;
   height: 100vh;
   min-height: 100%;
+  animation: fadein 1s;
 }
+
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
 html {
   min-height: 100%;
 }
@@ -71,20 +79,78 @@ html {
 .redes i {
   color: #f0f2f5;
 }
-
-.page {
-  display: flex;
-  justify-content: right;
-  
+form{
+  width: 100%;
+}
+form input,
+form textarea,
+form button {
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  border: 1px solid transparent;
+  transition: border-color linear 0.2s;
 }
 
-#empresa {
-  justify-items: left
-  ;
+form input:focus,
+form textarea:focus{
+  border: 1px solid #072279;
 }
-#cadastro{
-  display: flex;
-  
 
-  justify-items: right;
+form textarea {
+  resize: none;
+}
+
+#form-content {
+  display: flex;
+  background-color: #624f72;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 500px;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+}
+#contact-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.coluna{
+  width: 100%;
+  height: 30px;
+  max-width: 400px;
+}
+
+form button{
+  background-color: #ff9eea;
+  color: #fff;
+  width: 100%;
+  margin-top: 30px;
+}
+
+
+#epr-content{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ff9eea;
+  color: black;
+  border: 1pt solid black;
+   border-radius: 16px;
+   padding: 50px;
+  margin: 150px auto;
+  height: 342px;
+  width: 400px;
+  justify-content: space-around;
+  justify-items: center;
+  margin: 10px auto;
+}
+
+#epr-content span{
+  width: 100%;
+  
 }
