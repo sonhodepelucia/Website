@@ -8,6 +8,11 @@ _Larissa, lohany, Jefferson, Thiago_
 - Primeiro envio para o repositório
 - Atualização no changelog (teste)
 
+
+```
+Nota do professor: Nos próximos updates listem as atividades de cada membro de forma individual ou em duplas. 
+```
+
 ## 27 de Outubro de 2021
 
 _Larissa, Lohany_
@@ -132,3 +137,4 @@ _Larissa e Lohany_
 
 ## 28 de novembro
 - Refazendo a ilustração 3 do home, ínicio
+
