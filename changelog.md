@@ -127,8 +127,18 @@ _Thiagon_
 ## 26 de novembro
 _Larissa e Lohany_
 - Últimos ajustes na ilustração 2 do Home
-- HTML e CSS da segunda parte do quem somos
+- HTML e CSS da segunda parte do Quem Somos
 - Ajustes de CSS em alguns menus
 
 ## 28 de novembro
+_Larissa e Lohany_
 - Refazendo a ilustração 3 do home, ínicio
+
+## 29 de novembro
+_Jefferson_
+- Adição do botão em HTML e CSS na página Quem Somos (para mostrar a segunda parte do Quem Somos)
+- Desenvolvimento no código
+
+_Larissa e Lohany_
+- Ajustes de CSS
+

@@ -68,7 +68,7 @@
   /* Corpo da página */
   #page{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     padding: 50px; 
     
@@ -76,8 +76,22 @@
   }
   #imagem  img{
     padding-left: 70px;
+    display: block;
   }
-
+  .nosbtn{
+    margin-left: 320px;
+    position: absolute;
+    margin-top: -450px;
+    display: block ;
+    padding: 20pt;
+    border-radius: 27px;
+    border: 1pt solid black;
+    background-color: chartreuse;
+     opacity: 0%; 
+  }
+  .nosbtn:hover{
+   cursor: pointer;
+  }
   #texto{
     margin-top: 40px;
   }
@@ -96,7 +110,8 @@
 }
 .botao :hover{
   transition: 2s;
-  background-color: red;
+  background-color: rgb(142, 140, 192);
+  cursor: pointer;
 }
 .botaoup {
   color: rgb(255, 255, 255);
@@ -115,46 +130,6 @@
 
 /* segunda parte */
 
-.fundadores{
-  width: auto;
-  height: 620px;
-  background-color: rgb(142, 140, 192);
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-}
-
-.retrato1{
-  background-color: rgb(144, 224, 243);
-  height: 580px;
-  width: 312px;
-  padding-right: 20px;
-}
-
-.retrato2{
-  background-color: rgb(144, 224, 243);
-  height: 580px;
-  width: 312px;
-  padding-right: 20px;
-}
-
-.retrato3{
-  background-color: rgb(144, 224, 243);
-  height: 580px;
-  width: 312px;
-  padding-right: 20px;
-}
-
-.retrato4{
-  background-color: rgb(144, 224, 243);
-  height: 580px;
-  width: 312px;
-}
-
-.texto1{
-  width: 282px;
-  height: 550px;
-}
 
 /* footer */
 

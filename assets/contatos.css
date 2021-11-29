@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: rgb(144, 224, 243);
+  background-color: rgb(248, 199, 204);
   position: relative;
   height: 100vh;
   min-height: 100%;
@@ -106,7 +106,7 @@ form textarea {
   background-color: #624f72;
   border-radius: 5px;
   padding: 10px;
-  margin: 10px auto;
+  margin: 25px auto;
   max-width: 500px;
 }
 
@@ -114,6 +114,17 @@ form textarea {
   display: flex;
   flex-direction: column;
 }
+
+.label{
+margin: 0px 10px ;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+.label1{
+  margin: 15px 10px ;
+}
+
 #contact-content{
   display: flex;
   justify-content: space-between;
@@ -132,14 +143,18 @@ form button{
   margin-top: 30px;
 }
 
+form button:hover{
+cursor: pointer;
+}
+
 
 #epr-content{
   max-width: 400px;
   display: flex;
   flex-direction: column;
-  background-color: #ff9eea;
+  background-color: rgb(133, 187, 201);
   color: black;
-  border: 1pt solid black;
+  border: 1pt solid rgba(60, 60, 60, 0.61);
    border-radius: 16px;
    padding: 50px;
   margin: 150px auto;
@@ -147,7 +162,7 @@ form button{
   width: 400px;
   justify-content: space-around;
   justify-items: center;
-  margin: 10px auto;
+  margin: 100px auto;
 }
 
 #epr-content span{

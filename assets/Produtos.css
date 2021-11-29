@@ -181,7 +181,6 @@ main > header {
   display: inline-block;
 }
 .button2 {
-  display: flex;
   align-items: flex-end;
   justify-content: end;
   margin-top: -120px;
