@@ -142,3 +142,7 @@ _Jefferson_
 _Larissa e Lohany_
 - Ajustes de CSS
 
+## 02 de dezembro
+_Larissa e Lohany_
+- Correção de produtos e preços (imagens)
+- Alterações no menu e barra de pesquisa em CSS e HTML

@@ -14,30 +14,30 @@
     height: 100vh;
   }
   
-  #menu {
-    background-color: rgb(142, 140, 192);
-    border: 1pt solid black;
-  }
+  
+ /* menu */
   .conteúdo {
     justify-content: space-between;
     display: flex;
     align-content: center;
     width: 100%;
-    height: 120px;
+    height: 100px;
+    background-color: rgb(142, 140, 192);
   }
   
-  .logo img {
+  .conteúdo img {
     align-items: center;
-    margin: 16px 21px;
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   
   .conteúdo nav {
     justify-content: space-between;
     align-items: center;
     display: flex;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    margin-right: 10px;
+    margin-left: 120px;
+    margin-right: auto; 
   }
   
   .conteúdo nav a {
@@ -52,7 +52,7 @@
     align-content: space-between;
     display: flex;
     align-items: center;
-    padding: 25px;
+    padding: 15px;
   }
   .conteúdo div a {
     text-decoration: none;
@@ -63,6 +63,7 @@
   .redes i {
     color: #f0f2f5;
   }
+  
 
 
   /* Corpo da página */

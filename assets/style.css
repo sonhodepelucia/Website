@@ -9,8 +9,7 @@
 }
 
 body {
-  background-color: rgb(144, 224, 243
-  );
+  background-color: rgb(144, 224, 243);
   position: relative;
   height: 100vh;
   min-height: 100%;
@@ -24,31 +23,30 @@ html {
   width: 800px;
 }
 
-#menu {
-  background-color: rgb(142, 140, 192);
-  border: 1pt solid black;
-}
-.conteúdo img {
-  align-items: center;
-  margin-left: 25px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
 
+ /* menu */
 .conteúdo {
   justify-content: space-between;
   display: flex;
   align-content: center;
   width: 100%;
   height: 100px;
+  background-color: rgb(142, 140, 192);
 }
 
+.conteúdo img {
+  align-items: center;
+  margin-left: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
 .conteúdo nav {
   justify-content: space-between;
   align-items: center;
   display: flex;
-  margin-right: 28px;
+  margin-left: 120px;
+  margin-right: auto; 
 }
 
 .conteúdo nav a {
@@ -63,7 +61,7 @@ html {
   align-content: space-between;
   display: flex;
   align-items: center;
-  padding: 25px;
+  padding: 15px;
 }
 .conteúdo div a {
   text-decoration: none;
@@ -89,7 +87,10 @@ html {
   border: solid 1px;
   border-color: rgb(142, 140, 192);
   border-radius: 10px;
-  width: ;
+  
+  margin-left: auto;
+  margin-right: auto; 
+  /* width: ; */
   /* margin-left: 120px;
   margin-bottom: 50px; */
 }
@@ -109,6 +110,8 @@ html {
   margin-top: 4px;
   margin-right: 4px;
 }
+
+/* Página */
 
 .apresentaçao1 {
   width: 100%;
