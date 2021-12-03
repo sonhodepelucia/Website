@@ -37,6 +37,7 @@ html {
 .conteúdo img {
   align-items: center;
   margin-left: 25px;
+  margin-right: 25px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -45,7 +46,7 @@ html {
   justify-content: space-between;
   align-items: center;
   display: flex;
-  margin-left: 120px;
+  margin-left: 95px;
   margin-right: auto; 
 }
 
@@ -69,10 +70,27 @@ html {
   padding: 20px;
 }
 
+.conteúdo nav a:hover{
+  background-color: rgb(110, 108, 165);
+  padding: 37px 20px;
+}
 .redes i {
   color: #f0f2f5;
 }
 
+.redes a:hover{
+  
+  background-color: rgb(110, 108, 165);
+  padding: 36px 20px;
+}
+
+.logo:hover{
+  
+  background-color: rgb(110, 108, 165);
+  padding: 0px 0px;
+  cursor: pointer;
+
+}
 .center {
   background-color: rgb(248, 199, 204);
   align-items: center;

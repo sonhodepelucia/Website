@@ -144,5 +144,13 @@ _Larissa e Lohany_
 
 ## 02 de dezembro
 _Larissa e Lohany_
-- Correção de produtos e preços (imagens)
+- Correção de produtos e preços (adição de imagens)
 - Alterações no menu e barra de pesquisa em CSS e HTML
+
+## 03 de dezembro
+_Jefferson_
+- Adição do HTML (falha no CSS) botão de Voltar na segunda página do Quem somos
+
+_Larissa e Lohany_
+- CSS do botão de Voltar na segunda página do Quem somos
+- Mais ajustes na barra de menu CSS e HTML (hover)

@@ -28,6 +28,7 @@
   .conteúdo img {
     align-items: center;
     margin-left: 25px;
+    margin-right: 25px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
@@ -36,7 +37,7 @@
     justify-content: space-between;
     align-items: center;
     display: flex;
-    margin-left: 120px;
+    margin-left: 95px;
     margin-right: auto; 
   }
   
@@ -59,11 +60,25 @@
     color: #f0f2f5;
     padding: 20px;
   }
-  
+  .conteúdo nav a:hover{
+    background-color: rgb(110, 108, 165);
+    padding: 37px 20px;
+  }
   .redes i {
     color: #f0f2f5;
   }
+  .redes a:hover{
   
+    background-color: rgb(110, 108, 165);
+    padding: 36px 20px;
+  }
+  
+  .logo:hover{
+    
+    background-color: rgb(110, 108, 165);
+    padding: 0px 0px;
+  
+  }
 
 
   /* Corpo da página */
@@ -90,19 +105,35 @@
     background-color: chartreuse;
      opacity: 0%; 
   }
+
   .nosbtn:hover{
    cursor: pointer;
   }
+  
+  /* texto */
   #texto{
     margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
   }
+  .text{
+    margin: auto 100px;
+    padding: 20px 20px;
+    background-color: rgb(142, 140, 192);
+    border-radius: 30px;
+  }
+
+  /* Entre em contato */
 .botao button{
   display: flex;
   align-items: flex-end;
   justify-content: end;
   margin-top: 120px;
+  margin-left: auto;
+  margin-right:auto;
   padding: 20px 20px;
-  background-color: rgb(144, 224, 243); ;
+  background-color: Rgb(173, 222, 248) ;
   color: black ;
   border-radius: 30px;
   font-weight: bold;
@@ -114,13 +145,14 @@
   background-color: rgb(142, 140, 192);
   cursor: pointer;
 }
+
+/* botão subir */
 .botaoup {
   color: rgb(255, 255, 255);
   height: 70px;
   width: 70px;
   display: inline-block;
 }
-
 .button2 {
   display: flex;
   align-items: flex-end;
