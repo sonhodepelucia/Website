@@ -1,67 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="contatos.css" />
 
-    <title>Sonho de Pelúcia</title>
-    <script src="https://unpkg.com/feather-icons"></script>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="contatos.css" />
 
-  <body>
-    <div class="body">
-      <div id="menu">
-        <div class="conteúdo">
-          <div class="logo">
-          <img src="source/logo-vertical-bbbbbbbbbbbbbbbbb.png" />
-          </div>
-          <nav>
-            <a href="index.html">Home</a>
-            <a href="Produtos.html">Produtos</a>
-            <a href="contatos.html">Contato</a>
-            <a href="QuemSomos.html">Quem somos</a>
-          </nav>
-          <div class="redes">
-            <a href="https://www.instagram.com/sonhodepelucia_ofc/">
-              <i data-feather="instagram"></i></a>
-            <a href="https://m.facebook.com/sonhodepelucia_ofc-100444428947377/">
-              <i data-feather="facebook"></i></a>
-            <a href="$"> <i data-feather="twitter"></i></a>
-          </div>
+  <title>Sonho de Pelúcia</title>
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+  <div class="body">
+    <div id="menu">
+      <div class="conteúdo">
+        <div class="logo">
+          <a href="index.html"><img src="source/logo-vertical-bbbbbbbbbbbbbbbbb.png" /></a>
+        </div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="Produtos.html">Produtos</a>
+          <a href="contatos.html">Contato</a>
+          <a href="QuemSomos.html">Quem somos</a>
+        </nav>
+        <div class="redes">
+          <a href="https://www.instagram.com/sonhodepelucia_ofc/" target="_blank">
+            <i data-feather="instagram"></i></a>
+          <a href="https://m.facebook.com/sonhodepelucia_ofc-100444428947377/" target="_blank">
+            <i data-feather="facebook"></i></a>
+          <a href="$" target="_blank"> <i data-feather="twitter"></i></a>
         </div>
       </div>
-  
+    </div>
+
     <!-- Pagina -->
     <div id="contact-content" class="wrapper">
-      <!-- empresa -->
-      <div class="coluna">
-        <div id="epr-content">
-          <span
-            >Email:
-            <a
-              href="mailto:sonhodepelucia123@gmail.com"
-              class="button"
-              target="_blank"
-            >
-              sonhodepelucia123@gmail.com</a
-            >
-          </span>
-
-          <span>Numero de contato: (21)98170-8896 </span>
-          <span>Horario de serviço: 08:00~20:00H de seg á sexta </span>
-          <span
-            >Localização:
-            <a
-              href="https://goo.gl/maps/v6ycg4KRHmTfeBGn6"
-              class="button"
-              target="_blank"
-              >Rua Rodrigo Otávio - Vila São Luis</a
-            ></span
-          >
-        </div>
-      </div>
+     
 
       <!-- cadastro -->
       <div class="coluna">
@@ -69,46 +44,42 @@
           <form id="contato">
             <div class="form-group">
               <label class="label1" for="nome">Nome Completo</label>
-              <input placeholder="digite aqui..." 
-                type="text"
-                name="nome"
-                id="nome"
-                
-              >
-              </input >
+              <input placeholder="digite aqui..." type="text" name="nome" id="nome">
+              </input>
             </div>
 
             <div class="form-group">
               <label class="label" for="whatsapp">Whatsapp</label>
-              <input
-                type="text"
-                name="whatsapp"
-                id="whatsapp"
-                placeholder="digite aqui..."
-              ></input>
+              <input type="text" name="whatsapp" id="whatsapp" placeholder="digite aqui..."></input>
             </div>
 
             <div class="form-group">
               <label class="label" for="email">E-mail</label>
-              <input
-                type="text"
-                name="email"
-                id="email"
-                placeholder="digite aqui..."
-              ></input>
+              <input type="text" name="email" id="email" placeholder="digite aqui..."></input>
             </div>
 
             <div class="form-group">
               <label class="label" for="mensagem">Mensagem</label>
-              <textarea
-                name="mensagem"
-                id="mensagem"
-                placeholder="digite aqui..."
-              ></textarea>
+              <textarea name="mensagem" id="mensagem" placeholder="digite aqui..."></textarea>
             </div>
 
             <button type="submit">Enviar</button>
           </form>
+        </div>
+      </div>
+       <!-- empresa -->
+      <div class="coluna">
+        <div id="epr-content">
+          <span>Email:
+            <a href="mailto:sonhodepelucia123@gmail.com" class="button" target="_blank">
+              <span class="mudar">sonhodepelucia123@gmail.com</span></a>
+          </span>
+
+          <span>Numero de contato: <span class="mudar">(21)98170-8896</span> </span>
+          <span>Horario de serviço: <span class="mudar">08:00~20:00H de seg á sexta</span> </span>
+          <span>Localização:
+            <a href="https://goo.gl/maps/v6ycg4KRHmTfeBGn6" class="button" target="_blank"><span class="mudar">Rua
+                Rodrigo Otávio - Vila São Luis</span></a></span>
         </div>
       </div>
     </div>
@@ -116,8 +87,9 @@
     <script>
       feather.replace();
     </script>
-        <script src="js/contatos.js"></script>
+    <script src="js/contatos.js"></script>
 
 
-  </body>
+</body>
+
 </html>

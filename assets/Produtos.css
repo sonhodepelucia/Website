@@ -1,3 +1,10 @@
+@font-face{
+  font-family: 'sweet';
+  src: url('fonte/sweet\ purple.otf') format('opentype'),
+  url('fonte/sweet\ purple.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0;
   border: 0;
@@ -48,13 +55,14 @@ html {
   margin-left: 95px;
   margin-right: auto; 
 }
-
 .conteúdo nav a {
   padding: 20px;
-  font-size: 16pt;
   text-decoration: none;
   color: #f0f2f5;
+  font-family: 'sweet';
+  font-size: 35px;
 }
+
 
 
 .redes {
@@ -71,7 +79,7 @@ html {
 
 .conteúdo nav a:hover{
   background-color: rgb(110, 108, 165);
-  padding: 37px 20px;
+  padding: 29px 20px;
 }
 .redes i {
   color: #f0f2f5;
@@ -87,6 +95,7 @@ html {
   
   background-color: rgb(110, 108, 165);
   padding: 0px 0px;
+  cursor: pointer;
 
 }
 .center {
@@ -98,14 +107,23 @@ html {
   padding-bottom: 10px;
   /* margin-top: -50px; */
 }
+.sho{
+  margin-right: 35px;
+  color: rgb(88,44,77);
+}
+.sho:hover{
+  cursor: pointer;
+  color:#ffffff
+}
 #divBusca {
   background-color: #ffffff;
   border: solid 1px;
   border-color: rgb(142, 140, 192);
   border-radius: 10px;
   
-  margin-left: auto;
+  margin-left: 412px;
   margin-right: auto; 
+  width: 600px;
   /* width: ; */
   /* margin-left: 120px;
   margin-bottom: 50px; */
@@ -127,16 +145,100 @@ html {
   margin-right: 4px;
 }
 
+.content{
+  width: 1049px;
+  height: 272px;
+  overflow: hidden;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
 
-/* banner */
-.banner img {
-  margin-left: 65px;
-  margin-right: 65px;
+/* .content{
+   height: 342px;
+   width: 1337x;
+   border-radius: 20px;
+   overflow: hidden;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+} */
+
+
+.navigation{
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+}
+
+ .bar{
+  width: 70px;
+  height: 17px;
+  border: 2px solid #d84c72;
+  margin: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.bar:hover{
+  background-color: #d84c72;
+}
+
+
+.slides input{
+  display: none;
+}
+
+.slides{
+  display: flex;
+  width: 300%;
+  height: 100%;
+}
+
+.slide{
+  width:33.33%;
+  transition: .6s;
+}
+.slide img{
+  height: 100%;
+  width: 100%;
+}
+
+#slide1:checked ~ .s1{
+  margin-left:0;
+}
+
+#slide2:checked ~ .s1{
+  margin-left: -33.33%;
+}
+
+#slide3:checked ~ .s1{
+  margin-left: -66.66%;
+} 
+
+/* slide img{
+  width: 100%;
+  height: 100%;
+} */
+
+
+
+/* banner
+.banner {
+  margin-left: 150px;
+  margin-right: 150px;
   margin-bottom: 30px;
   margin-top: 30px;
-  width: 90%;
-  height: 90%;
-}
+  width: 1049px;
+} */
+
+
+
 
  /* produtos */
 .fds {
@@ -205,7 +307,7 @@ main > header {
 
 /* botão subir */
 .botao {
-  color: rgb(255, 255, 255);
+  color: rgb(88, 44, 77);
   height: 70px;
   width: 70px;
   display: inline-block;
@@ -312,6 +414,10 @@ footer {
 #popup form a {
   text-align: end;
 }
+
+.x:hover{
+  cursor: pointer;
+  }
 
 form input,
 form select,
@@ -449,3 +555,8 @@ tbody td svg {
   margin-left: 3px;
   margin-right: 3px;
 }
+
+.numero:hover{
+  cursor: pointer;
+}
+

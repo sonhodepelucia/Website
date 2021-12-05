@@ -1,4 +1,11 @@
-* {
+
+@font-face{
+  font-family: 'sweet';
+  src: url('fonte/sweet\ purple.otf') format('opentype'),
+  url('fonte/sweet\ purple.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}* {
   margin: 0;
   border: 0;
   padding: 0;
@@ -60,9 +67,10 @@ html {
 
 .conteúdo nav a {
   padding: 20px;
-  font-size: 16pt;
   text-decoration: none;
   color: #f0f2f5;
+  font-family: 'sweet';
+  font-size: 35px;
 }
 
 
@@ -79,9 +87,8 @@ html {
 }
 .conteúdo nav a:hover{
   background-color: rgb(110, 108, 165);
-  padding: 37px 20px;
+  padding: 29px 20px;
 }
-
 .redes i {
   color: #f0f2f5;
 }
@@ -91,13 +98,13 @@ html {
   background-color: rgb(110, 108, 165);
   padding: 36px 20px;
 }
-
 .logo:hover{
   
   background-color: rgb(110, 108, 165);
   padding: 0px 0px;
-
+  cursor: pointer;
 }
+
 
 /* página */
 form{
@@ -124,7 +131,7 @@ form textarea {
 
 #form-content {
   display: flex;
-  background-color: #624f72;
+  background-color: rgb(142, 140, 192);
   border-radius: 5px;
   padding: 10px;
   margin: 25px auto;
@@ -158,10 +165,11 @@ margin-bottom: 10px;
 }
 
 form button{
-  background-color: #ff9eea;
-  color: #fff;
+  background-color: rgb(144, 224, 243);
+  color: black;
   width: 100%;
   margin-top: 30px;
+  text-decoration: none;
 }
 
 form button:hover{
@@ -173,9 +181,8 @@ cursor: pointer;
   max-width: 400px;
   display: flex;
   flex-direction: column;
-  background-color: rgb(133, 187, 201);
+  background-color: rgb(142, 140, 192);
   color: black;
-  border: 1pt solid rgba(60, 60, 60, 0.61);
    border-radius: 16px;
    padding: 50px;
   margin: 150px auto;
@@ -188,5 +195,13 @@ cursor: pointer;
 
 #epr-content span{
   width: 100%;
-  
+}
+
+#epr-content a{
+  text-decoration: none;
+  color:black;
+}
+
+.mudar{
+  color: rgb(255, 255, 255);
 }

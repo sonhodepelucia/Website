@@ -1,3 +1,17 @@
+@font-face{
+  font-family: 'sweet';
+  src: url('fonte/sweet\ purple.otf') format('opentype'),
+  url('fonte/sweet\ purple.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'lovely';
+  src: url('fonte/Lovely\ Grooves.otf') format('opentype'),
+  url('fonte/Lovely\ Grooves.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 * {
     margin: 0;
     border: 0;
@@ -43,10 +57,12 @@
   
   .conteúdo nav a {
     padding: 20px;
-    font-size: 16pt;
     text-decoration: none;
     color: #f0f2f5;
+    font-family: 'sweet';
+    font-size: 35px;
   }
+  
   
   
   .redes {
@@ -62,7 +78,7 @@
   }
   .conteúdo nav a:hover{
     background-color: rgb(110, 108, 165);
-    padding: 37px 20px;
+    padding: 29px 20px;
   }
   .redes i {
     color: #f0f2f5;
@@ -74,9 +90,10 @@
   }
   
   .logo:hover{
-    
+  
     background-color: rgb(110, 108, 165);
     padding: 0px 0px;
+    cursor: pointer;
   
   }
 
@@ -123,6 +140,9 @@
     background-color: rgb(142, 140, 192);
     border-radius: 30px;
   }
+  .para{
+    text-indent: 4em;
+  }
 
   /* Entre em contato */
 .botao button{
@@ -138,8 +158,8 @@
   border-radius: 30px;
   font-weight: bold;
   text-decoration: none;
-
 }
+
 .botao :hover{
   transition: 2s;
   background-color: rgb(142, 140, 192);
@@ -164,11 +184,53 @@
 /* segunda parte */
 
 
+.sonhos img{
+  width: 300px;
+  height: 534px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.clientes{
+  background-color: rgb(142, 140, 192);
+  height: 800px;
+}
+.titulo{
+  padding: 5px 0px;
+}
+.titulo span{
+  display: flex;
+  justify-content: center;
+  font-family: 'lovely';
+  font-size: 50px;
+  color: #f0f2f5;
+}
+h1{
+  font-family: 'sweet';
+  font-size: 100px;
+  color: white;
+}
+.ava{
+ background-color: white;
+ margin: 20px;
+ padding: 10px;
+ border-radius: 10px;
+}
+.envelope{
+  background-color: violet;
+  width: 340px;
+  height: 700px;
+  border-radius: 5px;
+
+}
+
 /* footer */
 
 footer {
   position: absolute;
-  background-color: Rgb(173, 222, 248);
+  background-color: rgb(142, 140, 192);
   color: rgb(0, 0, 0);
   display: inline-block;
   width: 100%;

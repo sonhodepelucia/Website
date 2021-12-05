@@ -1,3 +1,10 @@
+@font-face{
+  font-family: 'sweet';
+  src: url('fonte/sweet\ purple.otf') format('opentype'),
+  url('fonte/sweet\ purple.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0;
   border: 0;
@@ -42,9 +49,10 @@ body {
 
 .conteúdo nav a {
   padding: 20px;
-  font-size: 16pt;
   text-decoration: none;
   color: #f0f2f5;
+  font-family: 'sweet';
+  font-size: 35px;
 }
 
 
@@ -58,11 +66,12 @@ body {
   text-decoration: none;
   color: #f0f2f5;
   padding: 20px;
+
 }
 
 .conteúdo nav a:hover{
   background-color: rgb(110, 108, 165);
-  padding: 37px 20px;
+  padding: 29px 20px;
 }
 .redes i {
   color: #f0f2f5;
@@ -78,23 +87,24 @@ body {
   
   background-color: rgb(110, 108, 165);
   padding: 0px 0px;
+  cursor: pointer;
 
 }
 /* pagina */
 .fundadores {
   width: auto;
-  height: 620px;
-  background-color: rgb(142, 140, 192);
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
+  background-color: rgb(144, 224, 243);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .retrato {
-  background-color: rgb(144, 224, 243);
-  height: 580px;
-  width: 312px;
-  padding-right: 20px;
+  background-color: rgb(142, 140, 192);
+  height:312px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
 }
 
 .texto1 {
@@ -102,11 +112,18 @@ body {
   height: 550px;
 }
 
+.retrato img{
+  border-radius: 20px;
+  width: 280px;
+  height: 280px;
+  margin: 16px;
+}
+
 /* footer */
 
 footer {
   position: absolute;
-  background-color: Rgb(173, 222, 248);
+  background-color: rgb(142, 140, 192);
   color: rgb(0, 0, 0);
   display: inline-block;
   width: 100%;
@@ -168,7 +185,7 @@ footer {
 }
 
 #addbottom {
-  background-color: #624f72;
+  background-color: #a8478a;
   border-radius: 50%;
   position: fixed;
   right: 0;

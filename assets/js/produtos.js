@@ -10,3 +10,10 @@ closeBtn.addEventListener("click", ()=>{
     popup.style.display = "none";
     popup.style.transition = "display 5s";
 })
+
+// // Can also be used with $(document).ready()
+// $(window).load(function() {
+//     $('.flexslider').flexslider({
+//       animation: "slide"
+//     });
+//   });
