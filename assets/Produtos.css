@@ -279,6 +279,7 @@ main > header {
 .produto img {
   width: 210px;
   height: 250px;
+  border-radius: 10px;
 }
 .produto p {
   background-color: #d84c72;
@@ -286,6 +287,7 @@ main > header {
   padding: 5px 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
+  border-radius: 10px;
 }
 .produto s {
   color: red;
@@ -417,6 +419,7 @@ footer {
 
 .x:hover{
   cursor: pointer;
+  color: white;
   }
 
 form input,
@@ -457,6 +460,7 @@ form button {
 form button:hover {
   background-color: #73abff;
   cursor: pointer;
+  transition: 0.8s;
 }
 
 #header {
@@ -516,7 +520,7 @@ tbody td svg {
   bottom: 0;
   margin-right: 30px;
   margin-bottom: 50px;
-  transition: background 2s;
+  transition: filter 2s;
   display: block;
   box-shadow: 0 5px 15px 0 rgba(0 0 0 / 30);
 }
@@ -532,7 +536,7 @@ tbody td svg {
 }
 
 #addbottom:hover {
-  background-color: #969cb2;
+  filter: brightness(0.7);
   cursor: pointer;
 }
 
@@ -541,6 +545,8 @@ tbody td svg {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .numero {
   background-color: #d84c72;
