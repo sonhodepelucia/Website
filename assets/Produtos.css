@@ -145,12 +145,16 @@ html {
   margin-right: 4px;
 }
 
+
+/* banner */
+
+
 .content{
   width: 1049px;
   height: 272px;
   overflow: hidden;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 25px;
   margin-bottom: 25px;
 }
@@ -168,11 +172,15 @@ html {
 
 
 .navigation{
-  position: absolute;
-  bottom: 30%;
-  left: 50%;
-  transform: translate(-50%);
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 20px;
+  margin: 0 auto;
+  top: -35px;
   display: flex;
+  justify-content: space-between;
 }
 
  .bar{
@@ -246,6 +254,7 @@ html {
   padding-top: 20px;
   margin-left: 150px;
   margin-right: 150px;
+  width: 1048.89;
 }
 /* main{
   background-color: #ffffffc2;

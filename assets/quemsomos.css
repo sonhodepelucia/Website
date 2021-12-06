@@ -112,14 +112,16 @@
     display: block;
   }
   .nosbtn{
-    margin-left: 320px;
+    margin-left: 270px;
     position: absolute;
-    margin-top: -450px;
+    margin-top: -480px;
     display: block ;
-    padding: 20pt;
+    padding: 60px;
     border-radius: 27px;
     border: 1pt solid black;
     background-color: chartreuse;
+    transform: rotate(15deg);
+   
      opacity: 0%; 
   }
 
