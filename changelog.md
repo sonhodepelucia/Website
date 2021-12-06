@@ -154,3 +154,18 @@ _Jefferson_
 _Larissa e Lohany_
 - CSS do botão de Voltar na segunda página do Quem somos
 - Mais ajustes na barra de menu CSS e HTML (hover)
+
+## 06 de dezembro
+_Jefferson_
+- Ajustes CSS do botão para a segunda página do Quem Somos
+
+
+_Larissa e Lohany_
+- HTML e CSS da página produtos (
+    *Adição do ícone filter
+    *Modificação da numeragem da página)
+- Adição em HTML do link do ícone de compras do Produtos
+- Adição em HTML do link do botão da Home
+
+_Joelson_
+-Gambiarra do Joelson

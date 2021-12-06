@@ -113,8 +113,9 @@ html {
 }
 .sho:hover{
   cursor: pointer;
-  color:#ffffff
+  color:#ffffff;
 }
+
 #divBusca {
   background-color: #ffffff;
   border: solid 1px;
@@ -263,23 +264,45 @@ html {
   max-width: 1024px;
   margin: 0 auto;
 }
-
-#container > header {
+/* 
+.header {
   background: #d4e4ef;
   text-align: center;
   padding-top: 1rem;
+} */
+
+.main{
+  display: flex;
+  justify-content: space-between;
 }
 
-main > header {
+.header{
   background-color: #d84c72;
   color: white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
   font-weight: 800;
   font-size: 20px;
   margin-bottom: 20px;
+  margin-left: 22px;
   text-align: center;
+  width: 960px;
+  border-radius: 10px;
 }
+.filter{
 
+  background-color: #d84c72;
+  color: white;
+  width: 22px;
+  height: 22px;
+  padding:3px;
+  border-radius: 100%;
+  margin-right: 22px;
+  margin-left: 10px;
+}
+.filter:hover{
+  cursor: pointer;
+  color: rgb(88, 44, 77);
+}
 .produto {
   margin-bottom: 20px;
   cursor: pointer;
@@ -559,6 +582,7 @@ tbody td svg {
 }
 .numero {
   background-color: #d84c72;
+  color: white;
   border-radius: 50%;
   height: 25px;
   width: 25px;
@@ -570,8 +594,27 @@ tbody td svg {
   margin-left: 3px;
   margin-right: 3px;
 }
+.numero1{
+  background-color: #d84c72;
+  color: white;
+  border-radius: 10px;
+  height: 25px;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
 
 .numero:hover{
   cursor: pointer;
+  color: rgb(88, 44, 77);
 }
 
+.numero1:hover{
+  cursor: pointer;
+  color: rgb(88, 44, 77);
+}
