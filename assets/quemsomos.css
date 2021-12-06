@@ -112,21 +112,22 @@
     display: block;
   }
   .nosbtn{
-    margin-left: 270px;
+    margin-left: 265px;
     position: absolute;
     margin-top: -480px;
     display: block ;
-    padding: 60px;
-    border-radius: 27px;
+    padding: 55px 70px;
+    border-radius: 27px ;
     border: 1pt solid black;
-    background-color: chartreuse;
-    transform: rotate(15deg);
+    background-color:rgba(3, 36, 18, 0.974)  ;
+    transform: rotate(18deg);
    
      opacity: 0%; 
   }
 
   .nosbtn:hover{
    cursor: pointer;
+   opacity: 17%;
   }
   
   /* texto */
