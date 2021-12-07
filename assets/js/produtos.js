@@ -1,7 +1,7 @@
 var addBtn = document.querySelector("#addbottom a");
 var popup = document.querySelector("#popupbackground");
 var closeBtn = document.querySelector("#popup form a");
-var form = document.getElementById("pou")
+var form = document.getElementById("pou") // <--tentando colocar um botão de envio
 
 addBtn.addEventListener("click", ()=>{
     popup.style.display = "flex";
