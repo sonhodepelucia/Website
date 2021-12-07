@@ -155,9 +155,25 @@ _Larissa e Lohany_
 - CSS do botão de Voltar na segunda página do Quem somos
 - Mais ajustes na barra de menu CSS e HTML (hover)
 
+## 04 de dezembro
+_Larissa e Lohany_
+- Finalmente adição da fonte em @ no CSS
+- Mais CSS da página Home (fontes {também na barra de menu em todas as pags}, cores e etc..)
+- (FINALMENTE) Carrossel pros banners do Produtos em HTML e CSS
+- CSS do Contatos ( modificação das posições do HTML)
+- HTML e CSS do Quem somos
+- HTML e CSS do Sonhos realizados
+- HTML e CSS da Segunda página do Quem Somos
+- Photoshop da illustração do Quem Somos
+- Adição do ícone de compras CSS e HTML
+
+## 05 de dezembro
+_Larissa e Lohany_
+- Modificações aqui e ali que esquecemos em HTML e CSS
+
 ## 06 de dezembro
 _Jefferson_
-- Ajustes CSS do botão para a segunda página do Quem Somos
+- Ajustes CSS do botão que vai para a segunda página do Quem Somos
 
 
 _Larissa e Lohany_
@@ -166,6 +182,20 @@ _Larissa e Lohany_
     *Modificação da numeragem da página)
 - Adição em HTML do link do ícone de compras do Produtos
 - Adição em HTML do link do botão da Home
+- HTML da 2 parte do Quem Somos(agora passar o mouse pela imagem faz ela mudar pra outra :D)
 
 _Joelson_
 -Gambiarra do Joelson
+
+## 07 de dezembro
+_Larissa e Lohany_
+- Html e CSS do Quem somos (parte 1 -Sobre a empresa- 
+*Margin
+*Texto
+*Tamanhos e justifies etc...
+
+e 2 da página -Sonhos realizados-
+*Adição de imagens
+*Texto
+*Tamanhos
+*Etc..)
