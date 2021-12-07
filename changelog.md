@@ -198,4 +198,5 @@ e 2 da página -Sonhos realizados-
 *Adição de imagens
 *Texto
 *Tamanhos
+*Correção de erros ortográficos no código
 *Etc..)
