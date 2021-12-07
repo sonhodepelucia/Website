@@ -248,7 +248,17 @@
  margin: 20px;
  padding: 10px;
  border-radius: 10px;
+ font-size: 15px;
+ height: 104px;
 }
+.ava1{
+  background-color: white;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  height: 100px;
+ }
 .envelope1{
   background-color: violet;
   width: 340px;

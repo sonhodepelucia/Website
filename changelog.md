@@ -200,3 +200,7 @@ e 2 da página -Sonhos realizados-
 *Tamanhos
 *Correção de erros ortográficos no código
 *Etc..)
+- Tentativa de JAVASCRIPT do botão enviar do popup
+
+_Joelson_
+- Ajuda no JAVASCRIPT do botão enviar do popup (praticamente tudo)
