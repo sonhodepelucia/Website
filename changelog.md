@@ -204,3 +204,10 @@ e 2 da página -Sonhos realizados-
 
 _Joelson_
 - Ajuda no JAVASCRIPT do botão enviar do popup (praticamente tudo)
+
+
+_jefferson_
+- correções de pequenas coisas no html
+- adicionando bordas na page " produtos"
+-  scroll bar do prof add :D
+ 

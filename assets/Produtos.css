@@ -1,7 +1,7 @@
-@font-face{
-  font-family: 'sweet';
-  src: url('fonte/sweet\ purple.otf') format('opentype'),
-  url('fonte/sweet\ purple.ttf') format('truetype');
+@font-face {
+  font-family: "sweet";
+  src: url("fonte/sweet\ purple.otf") format("opentype"),
+    url("fonte/sweet\ purple.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -13,6 +13,24 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+}
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f00;
 }
 
 body {
@@ -53,17 +71,15 @@ html {
   align-items: center;
   display: flex;
   margin-left: 95px;
-  margin-right: auto; 
+  margin-right: auto;
 }
 .conteúdo nav a {
   padding: 20px;
   text-decoration: none;
   color: #f0f2f5;
-  font-family: 'sweet';
+  font-family: "sweet";
   font-size: 35px;
 }
-
-
 
 .redes {
   align-content: space-between;
@@ -77,7 +93,7 @@ html {
   padding: 20px;
 }
 
-.conteúdo nav a:hover{
+.conteúdo nav a:hover {
   background-color: rgb(110, 108, 165);
   padding: 29px 20px;
 }
@@ -85,18 +101,15 @@ html {
   color: #f0f2f5;
 }
 
-.redes a:hover{
-  
+.redes a:hover {
   background-color: rgb(110, 108, 165);
   padding: 36px 20px;
 }
 
-.logo:hover{
-  
+.logo:hover {
   background-color: rgb(110, 108, 165);
   padding: 0px 0px;
   cursor: pointer;
-
 }
 .center {
   background-color: rgb(248, 199, 204);
@@ -107,13 +120,13 @@ html {
   padding-bottom: 10px;
   /* margin-top: -50px; */
 }
-.sho{
+.sho {
   margin-right: 35px;
-  color: rgb(88,44,77);
+  color: rgb(88, 44, 77);
 }
-.sho:hover{
+.sho:hover {
   cursor: pointer;
-  color:#ffffff;
+  color: #ffffff;
 }
 
 #divBusca {
@@ -121,9 +134,9 @@ html {
   border: solid 1px;
   border-color: rgb(142, 140, 192);
   border-radius: 10px;
-  
+
   margin-left: 412px;
-  margin-right: auto; 
+  margin-right: auto;
   width: 600px;
   /* width: ; */
   /* margin-left: 120px;
@@ -146,11 +159,9 @@ html {
   margin-right: 4px;
 }
 
-
 /* banner */
 
-
-.content{
+.content {
   width: 1049px;
   height: 272px;
   overflow: hidden;
@@ -171,8 +182,7 @@ html {
    transform: translate(-50%, -50%);
 } */
 
-
-.navigation{
+.navigation {
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -184,58 +194,56 @@ html {
   justify-content: space-between;
 }
 
- .bar{
+.bar {
   width: 70px;
   height: 17px;
   border: 2px solid #d84c72;
   margin: 6px;
   border-radius: 5px;
   cursor: pointer;
-  transition: .4s;
+  transition: 0.4s;
 }
 
-.bar:hover{
+.bar:hover {
   background-color: #d84c72;
 }
 
-
-.slides input{
+.slides input {
   display: none;
 }
 
-.slides{
+.slides {
   display: flex;
   width: 300%;
   height: 100%;
 }
 
-.slide{
-  width:33.33%;
-  transition: .6s;
+.slide {
+  width: 33.33%;
+  transition: 0.6s;
+  border: 2px black solid;
 }
-.slide img{
+.slide img {
   height: 100%;
   width: 100%;
 }
 
-#slide1:checked ~ .s1{
-  margin-left:0;
+#slide1:checked ~ .s1 {
+  margin-left: 0;
 }
 
-#slide2:checked ~ .s1{
+#slide2:checked ~ .s1 {
   margin-left: -33.33%;
 }
 
-#slide3:checked ~ .s1{
+#slide3:checked ~ .s1 {
   margin-left: -66.66%;
-} 
+}
 
 /* slide img{
   width: 100%;
   height: 100%;
 } */
-
-
 
 /* banner
 .banner {
@@ -246,10 +254,12 @@ html {
   width: 1049px;
 } */
 
+.produto img,
+p {
+  border: 2px black solid;
+}
 
-
-
- /* produtos */
+/* produtos */
 .fds {
   background-color: #ffffff;
   padding-top: 20px;
@@ -271,12 +281,12 @@ html {
   padding-top: 1rem;
 } */
 
-.main{
+.main {
   display: flex;
   justify-content: space-between;
 }
 
-.header{
+.header {
   background-color: #d84c72;
   color: white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
@@ -288,18 +298,17 @@ html {
   width: 960px;
   border-radius: 10px;
 }
-.filter{
-
+.filter {
   background-color: #d84c72;
   color: white;
   width: 22px;
   height: 22px;
-  padding:3px;
+  padding: 3px;
   border-radius: 100%;
   margin-right: 22px;
   margin-left: 10px;
 }
-.filter:hover{
+.filter:hover {
   cursor: pointer;
   color: rgb(88, 44, 77);
 }
@@ -449,10 +458,10 @@ footer {
   text-align: end;
 }
 
-.x:hover{
+.x:hover {
   cursor: pointer;
   color: white;
-  }
+}
 
 form input,
 form select,
@@ -594,7 +603,7 @@ tbody td svg {
   margin-left: 3px;
   margin-right: 3px;
 }
-.numero1{
+.numero1 {
   background-color: #d84c72;
   color: white;
   border-radius: 10px;
@@ -609,12 +618,12 @@ tbody td svg {
   margin-right: 3px;
 }
 
-.numero:hover{
+.numero:hover {
   cursor: pointer;
   color: rgb(88, 44, 77);
 }
 
-.numero1:hover{
+.numero1:hover {
   cursor: pointer;
   color: rgb(88, 44, 77);
 }

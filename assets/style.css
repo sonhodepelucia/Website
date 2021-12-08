@@ -1,13 +1,13 @@
-@font-face{
-  font-family: 'sweet';
-  src: url('fonte/sweet\ purple.otf') format('opentype'),
-  url('fonte/sweet\ purple.ttf') format('truetype');
+@font-face {
+  font-family: "sweet";
+  src: url("fonte/sweet\ purple.otf") format("opentype"),
+    url("fonte/sweet\ purple.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'warung';
-  src: url('fonte/Warung\ Kopi.otf') format('opentype');
+  font-family: "warung";
+  src: url("fonte/Warung\ Kopi.otf") format("opentype");
 }
 * {
   margin: 0;
@@ -17,6 +17,25 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f00;
 }
 
 body {
@@ -34,8 +53,7 @@ html {
   width: 800px;
 }
 
-
- /* menu */
+/* menu */
 .conteúdo {
   justify-content: space-between;
   display: flex;
@@ -58,17 +76,16 @@ html {
   align-items: center;
   display: flex;
   margin-left: 95px;
-  margin-right: auto; 
+  margin-right: auto;
 }
 
 .conteúdo nav a {
   padding: 20px;
   text-decoration: none;
   color: #f0f2f5;
-  font-family: 'sweet';
+  font-family: "sweet";
   font-size: 35px;
 }
-
 
 .redes {
   align-content: space-between;
@@ -80,10 +97,9 @@ html {
   text-decoration: none;
   color: #f0f2f5;
   padding: 20px;
-
 }
 
-.conteúdo nav a:hover{
+.conteúdo nav a:hover {
   background-color: rgb(110, 108, 165);
   padding: 29px 20px;
 }
@@ -91,18 +107,15 @@ html {
   color: #f0f2f5;
 }
 
-.redes a:hover{
-  
+.redes a:hover {
   background-color: rgb(110, 108, 165);
   padding: 36px 20px;
 }
 
-.logo:hover{
-  
+.logo:hover {
   background-color: rgb(110, 108, 165);
   padding: 0px 0px;
   cursor: pointer;
-
 }
 .center {
   background-color: rgb(248, 199, 204);
@@ -114,13 +127,13 @@ html {
   /* margin-top: -50px; */
 }
 
-.sho{
+.sho {
   margin-right: 35px;
-  color: rgb(88,44,77);
+  color: rgb(88, 44, 77);
 }
-.sho:hover{
+.sho:hover {
   cursor: pointer;
-  color:#ffffff;
+  color: #ffffff;
 }
 
 #divBusca {
@@ -128,9 +141,9 @@ html {
   border: solid 1px;
   border-color: rgb(142, 140, 192);
   border-radius: 10px;
-  
+
   margin-left: 412px;
-  margin-right: auto; 
+  margin-right: auto;
   width: 600px;
   /* width: ; */
   /* margin-left: 120px;
@@ -163,8 +176,8 @@ html {
   justify-content: space-between;
   background-color: rgb(178, 179, 238);
 }
-.apresentaçao1 img{
-/* width: 98%;
+.apresentaçao1 img {
+  /* width: 98%;
 height: 101%;; */
 }
 .texto1 {
@@ -173,7 +186,7 @@ height: 101%;; */
 
 .texto1 h1 {
   color: #383f51;
-  font-family: 'sweet';
+  font-family: "sweet";
   font-size: 50px;
   font-weight: 500;
   text-align: justify;
@@ -188,11 +201,9 @@ height: 101%;; */
   text-align: justify;
   text-align-last: center;
   padding-right: 20px;
-
 }
-.textoembaixo1 span{
-  font-family: 'warung';
-  
+.textoembaixo1 span {
+  font-family: "warung";
 }
 
 .apresentaçao2 {
@@ -211,7 +222,7 @@ height: 101%;; */
 
 .texto2 h1 {
   color: #383f51;
-  font-family: 'sweet';
+  font-family: "sweet";
   font-size: 50px;
   font-weight: 500;
   text-align: justify;
@@ -225,9 +236,8 @@ height: 101%;; */
   text-align: justify;
   text-align-last: center;
 }
-.textoembaixo2 span{
-  font-family: 'warung';
-  
+.textoembaixo2 span {
+  font-family: "warung";
 }
 .apresentaçao3 {
   width: 100%;
@@ -247,7 +257,7 @@ height: 101%;; */
   text-align: justify;
   text-align-last: center;
   color: #383f51;
-  font-family: 'sweet';
+  font-family: "sweet";
   font-size: 50px;
   font-weight: 500;
 }
@@ -259,11 +269,10 @@ height: 101%;; */
   text-align-last: center;
   padding-bottom: 40px;
 }
-.textoembaixo3 span{
-  font-family: 'warung';
-  
+.textoembaixo3 span {
+  font-family: "warung";
 }
-.texto3 button{
+.texto3 button {
   background-color: rgb(142, 140, 192);
   color: #ffff;
   padding: 20px;
@@ -276,25 +285,24 @@ height: 101%;; */
   transition: background 0.5s;
 }
 
-.texto3 button:hover{
+.texto3 button:hover {
   background-color: rgb(247, 131, 131);
   cursor: pointer;
 }
 
-
-.texto3 a{
+.texto3 a {
   color: #ffffff;
   text-decoration: none;
   font-family: cursive;
-} 
+}
 
-.botao{
+.botao {
   color: rgb(88, 44, 77);
   height: 70px;
   width: 70px;
   display: inline-block;
 }
-.button2{
+.button2 {
   display: flex;
   align-items: flex-end;
   justify-content: end;
@@ -311,7 +319,6 @@ footer {
   display: inline-block;
   width: 100%;
 }
-
 
 .info {
   align-items: center;
