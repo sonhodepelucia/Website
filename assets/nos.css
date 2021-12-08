@@ -123,9 +123,30 @@ body {
   border-radius: 20px;
 }
 
-.texto1 {
-  width: 282px;
-  height: 550px;
+.texto {
+  width: 400px;
+  height: 280px;
+  margin: 16px;
+  
+}
+.titulo{
+  
+  text-align: center;
+  color: white;
+  font-family: "sweet";
+
+
+}
+
+.sobre{
+  margin-top:20px;
+  padding:10px;
+  background-color: white;
+  border-radius: 10px;
+  height: 222px;
+  opacity: 70%;
+  
+  text-align:justify;
 }
 
 .retrato img {

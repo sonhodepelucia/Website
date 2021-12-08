@@ -256,16 +256,17 @@ html {
 
 .produto img,
 p {
-  border: 2px black solid;
+  border: 2px rgb(1, 153, 190) solid;    
 }
 
 /* produtos */
 .fds {
-  background-color: #ffffff;
+  background-color: #ffffffd3;
   padding-top: 20px;
   margin-left: 150px;
   margin-right: 150px;
   width: 1048.89;
+  border-radius: 16px;
 }
 /* main{
   background-color: #ffffffc2;
