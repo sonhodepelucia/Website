@@ -217,3 +217,9 @@ _Jefferson, Larissa e Lohany_
 
 _Caio_
 - Deus sugestões de estilização
+
+# 08 de dezembro
+_Larissa e Lohany_
+- Inicio do banner 3 
+- Edição do banner 2
+- HTML e CSS aqui um monte e ali um monte

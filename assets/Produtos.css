@@ -197,7 +197,6 @@ html {
 
 .bar {
   width: 70px;
-  height: 17px;
   border: 2px solid #d84c72;
   margin: 6px;
   border-radius: 5px;
@@ -222,7 +221,7 @@ html {
 .slide {
   width: 33.33%;
   transition: 0.6s;
-  border: 2px black solid;
+  border: 2px rgb(142, 140, 192) solid;
 }
 .slide img {
   height: 100%;
@@ -263,9 +262,9 @@ html {
 .fds {
   background-color: #ffffffd3;
   padding-top: 20px;
-  margin-left: 150px;
-  margin-right: 150px;
-  width: 1048.89;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1050px;
   border-radius: 16px;
 }
 /* main{
@@ -302,8 +301,8 @@ html {
 .filter {
   background-color: #d84c72;
   color: white;
-  width: 22px;
-  height: 22px;
+  width: 26px;
+  height: 26px;
   padding: 3px;
   border-radius: 100%;
   margin-right: 22px;
@@ -332,7 +331,7 @@ html {
   border-radius: 10px;
 }
 .produto s {
-  color: red;
+  color: rgb(216, 204, 52);
 }
 
 .produto img:hover {
@@ -356,6 +355,11 @@ html {
   width: 70px;
   display: inline-block;
 }
+
+.botao:hover{
+  color:#ffffff
+}
+
 .button2 {
   align-items: flex-end;
   justify-content: end;

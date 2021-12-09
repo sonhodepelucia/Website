@@ -18,6 +18,34 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "holiday";
+  src: url("fonte/Holidays\ Homework.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "letter";
+  src: url("fonte/lesthary.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "helena";
+  src: url("fonte/Holidays\ Homework.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "bodo";
+  src: url("fonte/Bodo\ Amat.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 * {
   margin: 0;
   border: 0;
@@ -160,41 +188,44 @@ body {
   font-size: 36px;
   color: white;
   text-align: center;
-  margin-bottom: 15px;
 }
 .text {
   width: 549px;
   height: 515px;
-  padding: 15px 30px 15px 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
   background-color: rgb(142, 140, 192);
   border-radius: 30px;
 }
 .para {
   text-indent: 2em;
   text-align: justify;
-  font-size: 20px;
-  font-family: 'song';
-  font-weight: 1000;
+  font-size: 16px;
+  font-family: 'bodo';
 }
 
 /* Entre em contato */
-.botao button {
+.botao button{
+  font-family: 'bodo';
   display: flex;
   align-items: flex-end;
   justify-content: end;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 8px;
+  margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
   padding: 20px 20px;
   background-color: Rgb(173, 222, 248);
-  color: black;
+  color: rgb(88, 44, 77);;
   border-radius: 30px;
-  font-weight: bold;
   text-decoration: none;
-  text-decoration-line: none;
+  
 }
 
+.botao{
+  text-decoration: none;
+}
 .botao :hover {
   transition: 2s;
   background-color: rgb(248, 199, 204);
@@ -214,6 +245,11 @@ body {
   justify-content: end;
   margin-top: -120px;
   padding: 20px 20px;
+}
+
+.botaoup:hover{
+  color:rgb(88, 44, 77);
+  
 }
 
 /* segunda parte */
@@ -237,7 +273,7 @@ body {
 
 .clientes {
   background-color: rgb(142, 140, 192);
-  height: 800px;
+  height: 820px;
 }
 .titulo {
   padding: 5px 0px;
@@ -277,19 +313,19 @@ body {
   height: 100px;
 }
 .envelope1 {
-  background-color: violet;
+  background-color: rgb(248, 199, 204);
   width: 340px;
   height: 700px;
   border-radius: 5px;
-  margin: 15px;
+  margin: 24px;
 }
 
 .envelope2 {
-  background-color: violet;
+  background-color: rgb(248, 199, 204);
   width: 465px;
   height: 700px;
   border-radius: 5px;
-  margin: 15px;
+  margin: 24px;
 }
 
 /* footer */

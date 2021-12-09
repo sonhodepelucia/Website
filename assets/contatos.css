@@ -188,6 +188,9 @@ form button {
 
 form button:hover {
   cursor: pointer;
+  
+  transition: 2s;
+  background-color:rgb(248, 199, 204);
 }
 
 #epr-content {
