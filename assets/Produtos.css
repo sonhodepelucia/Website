@@ -5,6 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 * {
   margin: 0;
   border: 0;
@@ -254,9 +255,8 @@ html {
   width: 1049px;
 } */
 
-.produto img,
-p {
-  border: 2px rgb(1, 153, 190) solid;    
+.produto img,p {
+  border: 2px rgb(142, 140, 192) solid;  
 }
 
 /* produtos */

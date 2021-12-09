@@ -5,6 +5,13 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "song";
+  src: url("fonte/Please write me a song.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   border: 0;
@@ -32,8 +39,8 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #f00;
 }
-.page img {
-  border: 2px black solid;
+.page img{
+  border: 2px rgb(88, 44, 77) solid ;
 }
 
 body {
@@ -145,7 +152,9 @@ body {
   border-radius: 10px;
   height: 222px;
   opacity: 70%;
-  
+  font-family: 'song';
+  font-size: 16pt;
+  font-weight: 1000;
   text-align:justify;
 }
 

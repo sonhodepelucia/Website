@@ -12,6 +12,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "song";
+  src: url("fonte/Please write me a song.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0;
   border: 0;
@@ -110,7 +116,7 @@ body {
 }
 
 /* Corpo da página */
-#page {
+#page{
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -150,23 +156,25 @@ body {
   height: 515px;
 }
 .Sobre {
-  font-family: "sweet";
+  font-family: 'sweet';
   font-size: 36px;
   color: white;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .text {
   width: 549px;
   height: 515px;
-  padding: 20px 20px;
+  padding: 15px 30px 15px 30px;
   background-color: rgb(142, 140, 192);
   border-radius: 30px;
 }
 .para {
   text-indent: 2em;
   text-align: justify;
-  font-size: 15px;
+  font-size: 20px;
+  font-family: 'song';
+  font-weight: 1000;
 }
 
 /* Entre em contato */
@@ -174,8 +182,8 @@ body {
   display: flex;
   align-items: flex-end;
   justify-content: end;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   padding: 20px 20px;

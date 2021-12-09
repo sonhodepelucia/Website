@@ -211,3 +211,9 @@ _jefferson_
 - adicionando bordas na page " produtos"
 -  scroll bar do prof add :D
  
+# 08 de dezembro
+_Jefferson, Larissa e Lohany_
+- Modificações em alguns CSS's e HTML's aqui e ali
+
+_Caio_
+- Deus sugestões de estilização
