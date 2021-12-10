@@ -200,13 +200,14 @@ form button:hover {
   background-color: rgb(142, 140, 192);
   color: black;
   border-radius: 16px;
-  padding: 50px;
+  padding: 55px;
   margin: 150px auto;
   height: 342px;
   width: 400px;
   justify-content: space-around;
   justify-items: center;
   margin: 100px auto;
+  text-align: justify;
 }
 
 #epr-content span {

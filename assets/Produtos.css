@@ -322,6 +322,11 @@ html {
   height: 250px;
   border-radius: 10px;
 }
+
+
+.comprar:hover{
+  background-color: rgba(0, 0, 0, 0.2);
+}
 .produto p {
   background-color: #d84c72;
   color: whitesmoke;
@@ -350,7 +355,7 @@ html {
 
 /* botão subir */
 .botao {
-  color: rgb(88, 44, 77);
+  color: rgb(142, 140, 192);
   height: 70px;
   width: 70px;
   display: inline-block;
@@ -394,7 +399,7 @@ footer {
 }
 
 .Gmail a:hover {
-  color: blue;
+  color: rgb(88,44,77);;
   transition: 0.4s;
 }
 .icon-whatsapp {
@@ -408,7 +413,7 @@ footer {
   color: black;
 }
 .icon-whatsapp a:hover {
-  color: blue;
+  color: rgb(88,44,77);;
   transition: 0.4s;
 }
 .adress {
@@ -423,7 +428,7 @@ footer {
 }
 
 .adress a:hover {
-  color: blue;
+  color: rgb(88,44,77);;
   transition: 0.4s;
 }
 
