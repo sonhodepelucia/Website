@@ -211,15 +211,19 @@ _jefferson_
 - adicionando bordas na page " produtos"
 -  scroll bar do prof add :D
  
-# 08 de dezembro
+## 08 de dezembro
 _Jefferson, Larissa e Lohany_
 - Modificações em alguns CSS's e HTML's aqui e ali
 
 _Caio_
 - Deus sugestões de estilização
 
-# 08 de dezembro
+## 09 de dezembro
 _Larissa e Lohany_
-- Inicio do banner 3 
+- Inicio e finalizações do banner 3 
 - Edição do banner 2
 - HTML e CSS aqui um monte e ali um monte
+- Adição do resto das imagens e textos do Sobre Nós 
+
+_Thiago_
+- Sugestões e opiniões
